@@ -4,6 +4,7 @@
     margin: 0px;
 }
 
+/* hero section start */
 .hero-sec-h {
     font-size: 50px;
     padding-top: 30px;
@@ -22,6 +23,7 @@
     display: flex;
     background-image: url(img/top-banner.png);
     background-repeat: no-repeat;
+    height: 100vh;
 }
 
 .hero-section-text {
@@ -58,4 +60,43 @@
     padding: 5px 35px;
     box-shadow: 0px 0px 10px rgb(189, 181, 181);
     margin-top: 30px;
+}
+
+/* hero section closed */
+
+/* dream section start */
+.dream-big {
+    display: flex;
+    margin-top: 50px;
+    height: 100vh;
+    background-image: url(img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+
+}
+
+.dream-img {
+    width: 50%;
+    padding-left: 5%;
+}
+
+.dream-img img {
+    width: 100%;
+}
+
+.dream-text {
+    width: 50%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.drm-h {
+    font-size: 50px;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+.drm-p {
+    opacity: 70%;
+    padding-top: 10px;
 }
