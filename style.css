@@ -12,7 +12,7 @@
 
 .hero-h {
     padding-top: 30px;
-    padding-bottom: 20px;
+    /* padding-bottom: 20px; */
 }
 
 .clr {
@@ -29,11 +29,13 @@
 .hero-section-text {
     width: 50%;
     padding-left: 5%;
-    padding-top: 70px;
+    /* padding-top: 70px; */
 }
 
-.hero-sec-p {
+.paragraph {
     opacity: 70%;
+    padding-top: 15px;
+    font-size: 15px;
 }
 
 .hero-section-img {
@@ -68,7 +70,7 @@
 .dream-big {
     display: flex;
     margin-top: 50px;
-    height: 100vh;
+
     background-image: url(img/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right top;
@@ -99,4 +101,45 @@
 .drm-p {
     opacity: 70%;
     padding-top: 10px;
+}
+
+.experience-part {
+    margin-top: 100px;
+    background-image: url(img/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position-y: 100px;
+
+}
+
+.experience-part h1 {
+    font-size: 30px;
+}
+
+.flex-div {
+    display: flex;
+}
+
+.dev {
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 30px;
+    padding: 25px;
+    box-shadow: 0px 0px 20px gray;
+    border-left: 6px solid #F46C5A;
+    margin-bottom: 200px;
+
+}
+
+.dev h4 {
+    color: #FFA500;
+    padding-top: 20px;
+}
+
+#blue-border {
+    border-left: 6px solid blue;
+}
+
+footer p {
+    text-align: center;
 }
